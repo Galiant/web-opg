@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="follow,index">
+  <meta name="robots" content="all">
+  <meta name="distribution" content="Global">
+  <meta name="description" content="">
+  <meta name="author" content="Antonijo Galic & Ivan Mikulic">
+  <link rel="icon" href="images/favicon.png">
+
+  <title>OPG Mikulić</title>
+
+  <!-- Font-Awesome CSS -->
+  <link href="assets/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" class="center-block">
+          <span class="logo-text">OPG Mikulić</span>
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html">Početna</a>
+          </li>
+          <li>
+            <a href="o-nama.html">O nama</a>
+          </li>
+          <li>
+            <a href="usluge.html">Cjenik i proizvodi</a>
+          </li>
+          <li class="active">
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <!-- MAP
+================================================== -->
+  <article class="map">
+    <iframe src="https://www.google.hr/maps/place/Gorica/@44.0403703,15.4099514,15z/data=!4m13!1m7!3m6!1s0x4761e7186eb501e3:0xa4bf7106e0709e71!2sGorica!3b1!8m2!3d44.0416382!4d15.4137246!3m4!1s0x4761e7186eb501e3:0xa4bf7106e0709e71!8m2!3d44.0416382!4d15.4137246?dcr=0"
+      width="100%" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </article>
+
+  <!-- CONTACT FORM
+================================================== -->
+  <div class="container">
+
+    <!-- Form Name -->
+    <div class="row form-title">
+      <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4">
+        <h2>Kontaktirajte nas</h2>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-4 text-center">
+        <div class="kontakt">
+          <div class="kontakt-icon">
+            <i class="fa fa-map-marker fa-3x"></i>
+          </div>
+          <div class="kontakt-title">
+            <h4>Adresa</h4>
+          </div>
+          <div class="kontakt-info">
+            <p>Gorica 42</p>
+            <p>23206 Sukošan</p>
+          </div>
+        </div>
+        <div class="kontakt">
+          <div class="kontakt-icon">
+            <i class="fa fa-phone fa-3x"></i>
+          </div>
+          <div class="kontakt-title">
+            <h4>Kontakt broj</h4>
+          </div>
+          <div class="kontakt-info">
+            <p>+385 98 188 6668</p>
+          </div>
+        </div>
+        <div class="kontakt">
+          <div class="kontakt-icon">
+            <i class="fa fa-envelope-o fa-3x"></i>
+          </div>
+          <div class="kontakt-title">
+            <h4>Mail</h4>
+          </div>
+          <div class="kontakt-info">
+            <p>opgdmgorica@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-8 col-md-8 mail">
+        <form name="sentMessage" class="horizontal-form" id="contactForm" novalidate>
+          <div class="control-group">
+            <div class="controls">
+              <input type="text" class="form-control" placeholder="Ime" id="name" required data-validation-required-message="Molimo Vas unesite ime"
+              />
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <input type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Molimo Vas unesite e-mail"
+              />
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <input type="text" class="form-control" placeholder="Naslov" id="subject" required data-validation-required-message="Molimo Vas unesite naslov"
+              />
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <textarea rows="11" cols="100" class="form-control" placeholder="Poruka" id="message" required data-validation-required-message="Molimo Vas unesite poruku"
+                minlength="5" data-validation-minlength-message="Minimalno 5 znakova" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div class="submit">
+            <div id="success"> </div>
+            <!-- For success/fail messages -->
+            <button type="submit" id="button1id" name="button1id" class="btn">Pošalji</button>
+            <br />
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==== FOOTER ==== -->
+  <footer>
+    <div class="container">
+      <div class="row info">
+        <div class="col-lg-4 col-md-4">
+          <h3>Info</h3>
+          <div class="info-child">
+            <div class="info-text">
+              <p>OPG Mikulić</p>
+              <p>Gorica 42, Gorica</p>
+              <p>23206 Sukošan</p>
+              <p>MIBPG: 22307</p>
+              <p>Evidencijski broj pčelara: 2314173</p>
+              <p>Evidencijski broj punionice meda: R-4650</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h3>Kontakt</h3>
+          <div class="info-child">
+            <div class="info-text">
+              <p>Mob: +385 98 188 6668 (Domagoj)</p>
+              <p>E-mail: opgdmgorica@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h3>Korisni linkovi</h3>
+          <div class="info-child">
+            <div class="info-text">
+              <p>
+                <a href="http://www.pcela.hr/" target="_blank">Hrvatski pčelarski savez</a>
+              </p>
+              <p>
+                <a href="http://www.pcelinjak.hr/" target="_blank">Hrvatski pčelari</a>
+              </p>
+              <p>
+                <a href="http://www.pcelarstvo.hr/" target="_blank">Pčelarstvo</a>
+              </p>
+              <p>
+                <a href="http://www.mps.hr/" target="_blank">Ministarstvo poljoprivrede</a>
+              </p>
+              <p>
+                <a href="http://www.apprrr.hr/upisnik-poljoprivrednih-gospodarstava-1149.aspx" target="_blank">Registar poljoprivrednih gospodarstava</a>
+              </p>
+              <p>
+                <a href="https://www.facebook.com/croatia.zadar.7" target="_blank">OPG Mikulić (Facebook)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 copy text-center">Copyright 2017 &copy; OPG Mikulić. Sva prava pridržana.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==== JQUERY ==== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- ==== BOOSTRAP JAVASCRIPT ==== -->
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
