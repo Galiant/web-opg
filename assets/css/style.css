@@ -6096,13 +6096,15 @@ footer {
   .usluge ul {
     line-height: 1.75;
     font-size: 18px; }
-  .usluge .linkovi {
-    margin-top: 50px; }
-    .usluge .linkovi .btn-link {
-      width: 90%;
-      padding: 30px 0;
-      font-size: 22px;
-      margin: 10px 0; }
+
+.proizvod {
+  margin-left: 30px; }
+  .proizvod .proizvod_naslov {
+    font-weight: 600;
+    font-size: 20px; }
+  .proizvod .cijena {
+    font-size: 18px;
+    color: #FF5722; }
 
 /* KONTAKT */
 article {
