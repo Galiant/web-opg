@@ -6065,7 +6065,8 @@ footer {
       height: 2px;
       margin-top: 15px;
       margin-bottom: 50px; }
-  .o-nama p {
+  .o-nama p,
+  .o-nama li {
     line-height: 1.75;
     font-size: 18px; }
   .o-nama .drugi {
@@ -6104,7 +6105,8 @@ footer {
     font-size: 20px; }
   .proizvod .cijena {
     font-size: 18px;
-    color: #FF5722; }
+    color: #FF5722;
+    margin-bottom: 25px; }
 
 /* KONTAKT */
 article {
