@@ -27,6 +27,9 @@ body
   min-height: 100px
   border: none
 
+  .navbar-nav
+    margin-top: 10px
+
 .navbar-default
   background-color: $primary-color-text
 
@@ -42,7 +45,7 @@ body
         vertical-align: middle
 
       .logo-text
-        font-size: 42px
+        font-size: 38px
         font-weight: 700
         color: rgba($primary-text-color, .8)
         vertical-align: middle
@@ -81,6 +84,10 @@ body
     margin-left: 25px
 
 @media screen and (max-width: 500px)
+
+  .navbar-default .container .navbar-brand .logo-text
+    font-size: 30px
+
   .img-responsive
     image-rendering: -moz-crisp-edges
     image-rendering: -o-crisp-edges
@@ -92,10 +99,10 @@ body
   .carousel,
   .carousel-inner
     height: 530px
-
-@media screen and (max-width: 370px)
+  
+@media screen and (max-width: 346px)
   .navbar-default .container .navbar-brand .logo-text
-    font-size: 32px
+    font-size: 24px
 
 /* MARKETING */
 .marketing 
@@ -220,7 +227,7 @@ footer
 
 @media screen and (max-width: 992px)
   footer 
-    height: 600px
+    height: 650px
   
     .info
       padding: 20px 0
@@ -230,6 +237,10 @@ footer
 
   .panel-footer
     padding: 20px 0
+
+@media screen and (max-width: 376px)
+  footer 
+    height: 680px
 
 
 /* O NAMA */
